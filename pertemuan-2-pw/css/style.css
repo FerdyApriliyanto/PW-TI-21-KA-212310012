@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+.font-small {
+    font-size: 12px;
+}
+
+.container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: solid 1px black;
+    padding: 5px 10px;
+}
+
+.share-article {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.container .image {
+    align-self: center;
+}
+
+.container .divider {
+    border-bottom: solid 1px black;
+}
+
+.container table {
+    margin-top: 40px;
+}
+
+.container table {
+    width: 80%;
+    margin: auto;
+}
+
+.container table th {
+    color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: cyan;
+}
+
+.container table th {
+    padding: 20px 0px;
+}
+
+.bg-cyan {
+    background-color: cyan;
+}
+
+.bg-greenyellow {
+    background-color: greenyellow;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+/* LATIHAN-2 */
+.card-container {
+    display: flex;
+    width: 60vw;
+    margin: auto;
+    flex-direction: column;
+    border: solid 1px black;
+    padding: 10px 10px;
+}
+
+.card-container .card-copyright {
+    margin: 40px auto;
+}
+
+.card-container .card-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card-container .card-wrapper .card-item {
+    border: solid 1px black;
+    padding: 5px 10px;
+}
+
+.card-item .card-image {
+    width: 100%;
+}
+
+.card-item .card-title {
+    color: blue;
+}
+
+/* LATIHAN-3 */
+.nav-bg {
+    background-color: #0070c0;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 10px;
+    align-items: center;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #deebf6;
+}
+
+.main-page .quotes {
+    font-size: 60px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+article {
+    display: flex;
+    gap: 10px;
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+article img {
+    width: 100%;
+}
+
+article .article-item {
+    border: solid 1px #0070c0;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+article button {
+    color: #0070c0;
+    padding: 2px 22px;
+    background-color: transparent;
+    border-color: #0070c0;
+}
+
+article button:hover {
+    color: white;
+    background-color: #0070c0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* LATIHAN 4 */
+.profile-container {
+    display: flex;
+    gap: 20px;
+    background-color: #0070c0;
+    color: white;
+}

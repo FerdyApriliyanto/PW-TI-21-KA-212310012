@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+    gap: 20px;
+    box-shadow: 5px 10px black;
+    border: 2px solid white;
+}
+
+.hero-name {
+    color: blue;
+}
+
+button {
+    background-color: transparent;
+    padding: 10px 20px;
+}
